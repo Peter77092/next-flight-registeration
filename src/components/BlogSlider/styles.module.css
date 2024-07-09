@@ -1,0 +1,14 @@
+.default_image {
+  aspect-ratio: 21/9;
+  width: 100%;
+  inline-size: 100%;
+  content-visibility: auto;
+  position: relative;
+  /* max-width: 100%; */
+}
+
+.title{
+  filter: invert(1) grayscale(1);
+  mix-blend-mode: difference;
+  /* color: transparent; */
+}

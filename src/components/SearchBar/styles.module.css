@@ -1,0 +1,41 @@
+.item__class{
+    font-size: 0.875rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+    cursor: pointer;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .item__class{
+        font-size: 0.75rem;
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+    }
+}
+
+.active{
+    color: blue;
+}
+
+.rotate_180 {
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(180deg);
+}
+
+/* .item__class:hover{
+    font-weight: 600;
+    border-bottom: 2px solid #000;
+}
+
+.active{
+    color: blue;
+    border-bottom: 2px solid blue;
+} */
+

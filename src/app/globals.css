@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.color{
+  color: #1668e3;
+}
+
+.screen{
+  /* header:80px */
+  /* footer:540px */
+  min-height: calc(100vh - 480px);
+}
+
+.swiper{
+  background-color: transparent;
+}
+
+.swiper-button-prev:after,
+ .swiper-button-next:after{
+  width: 35px;
+  height: 35px;
+  font-size: 1rem!important;
+  color: #1668e3;
+  border: 1px solid #f0f0f0;
+  padding: 10px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background-color: white;
+ }

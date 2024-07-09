@@ -1,0 +1,16 @@
+.imgSlider {
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+  width: 100%;
+  height: 100%;
+  background-color: #eff3f7;
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .imgSlider {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    border-bottom-left-radius: 0;
+  }
+}

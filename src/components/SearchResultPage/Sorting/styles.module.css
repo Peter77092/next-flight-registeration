@@ -1,0 +1,20 @@
+.selector{
+    block-size: 3rem;
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid #818494;
+    border-radius: 0.5rem;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-block-start: 1rem;
+    outline: none;
+}
+
+.properties_num{
+    font-size: 0.8rem;
+}
